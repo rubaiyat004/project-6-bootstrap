@@ -1,0 +1,25 @@
+.navbar a i{
+    font-size: 10px;font-weight:bold; color: black; font-family: var(--h1-font);font-style: normal;
+}
+.main{
+    background-image: url(images/bg-7.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 35em;
+     
+}
+.main h1{
+    font-size: 84px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 1000;
+    padding-top: 1.5em;
+    
+}
+.main p{
+    font-size: 28px;
+    color: grey;
+    padding: 0em 6em;
+}
+
+
