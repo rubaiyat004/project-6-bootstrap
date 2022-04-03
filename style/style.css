@@ -86,5 +86,23 @@
     background: linear-gradient(208.18deg, #3280d4 9.05%, #166ef1 76.74%);
     
 }
+.card-bg-1{
+    background-color: rgb(35, 33, 33);
+    border: none;
+    height: 22.5em;
+    padding: 30px 30px;
+    
+}
+.card-bg-1 h5{
+    color: aliceblue;
+    padding: 15px 0;
+}
+.card-bg-1 p{
+    color: aliceblue;
+    padding: 12px 0;
+}
+.card-bg-1:hover{
+    background: linear-gradient(208.18deg, #3280d4 9.05%, #166ef1 76.74%);
+}
 
 
