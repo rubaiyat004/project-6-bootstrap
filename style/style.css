@@ -26,13 +26,10 @@
     font-weight: 600;
 }
 .col-lg-8 h2{
-    font-size: 40px;
-    font-weight: bold;
-    padding: 20px 0px;
+    font-size: 40px;font-weight: bold;padding: 20px 0px;
 }
 .col-lg-8 p{
-    font-size: 18px;
-    color: gray;
+    font-size: 18px;color: gray;
 }
 .col-lg-8{
     padding-right: 30px;
@@ -43,29 +40,51 @@
 
 .col-lg-4{
     padding-left: 30px;
+    
 }
+.col-lg-4 .list-group{
+    padding-bottom: 50px;
+}
+
 .content{
-    padding: 100px 0px;
-    
+    padding: 100px 0px;   }
+.italic{
+    padding: 30px 30px;}
+.list-group li{
+    border-right: hidden;border-left: hidden; padding: 25px 0;}
+.list-group-item h5{padding-left: 15px;}
+.list-group{padding-top: 40px;}
+.list-group-item a{
+    text-decoration: none;color: black;}
+
+.card-img-top{
+    border-radius: 50%;
+    width: 100px;
+    height: auto;
     
 }
-.italic{
+.card-bg{
+    background-color: rgba(45, 45, 45, 0.1);
+    border: none;
+    height: 22.5em;
     padding: 30px 30px;
 }
-.list-group li{
-    border-right: hidden;
-    border-left: hidden;
-    padding: 25px 0;
+.col-12 {
+    
+    text-align: center;
 }
-.list-group-item h5{
-padding-left: 15px;
+.col-12 p{
+    font-size: 18px;
+    
+    padding: 20px 0;
 }
-.list-group{
-    padding-top: 40px;
+.star{
+    padding: 0 10px;
 }
-.list-group-item a{
-    text-decoration: none;
-    color: black;
+.col-12:hover{
+   color: aliceblue;
+    background: linear-gradient(208.18deg, #3280d4 9.05%, #166ef1 76.74%);
+    
 }
 
 
