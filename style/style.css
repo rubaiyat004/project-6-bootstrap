@@ -9,7 +9,7 @@
      
 }
 .main h1{
-    font-size: 84px;
+    font-size: 6em;
     color: white;
     font-family: 'Times New Roman', Times, serif;
     font-weight: 1000;
@@ -17,9 +17,47 @@
     
 }
 .main p{
-    font-size: 28px;
+    font-size: 1.8em;
     color: grey;
     padding: 0em 6em;
+}
+.navbar-brand{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.col-lg-8 h2{
+    font-size: 40px;
+    font-weight: bold;
+    padding: 20px 0px;
+}
+.col-lg-8 p{
+    font-size: 18px;
+    color: gray;
+}
+.col-lg-8{
+    padding-right: 20px;
+}
+.col-lg-4{
+    padding-left: 20px;
+}
+.content{
+    padding: 100px 0px;
+    
+}
+.italic{
+    padding: 30px 30px;
+}
+.list-group li{
+    border-right: hidden;
+    border-left: hidden;
+    padding: 25px 0;
+}
+.list-group-item h5{
+padding-left: 15px;
+}
+.list-group-item a{
+    text-decoration: none;
+    color: black;
 }
 
 
