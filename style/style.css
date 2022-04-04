@@ -61,7 +61,6 @@
     border-radius: 50%;
     width: 100px;
     height: auto;
-    
 }
 .card-bg{
     background-color: rgba(45, 45, 45, 0.1);
@@ -70,12 +69,10 @@
     padding: 30px 30px;
 }
 .col-12 {
-    
     text-align: center;
 }
 .col-12 p{
     font-size: 18px;
-    
     padding: 20px 0;
 }
 .star{
@@ -125,5 +122,40 @@
     filter: opacity(.7);
     transition: .25ms;
 }
+.portfolio{
+    padding: 100px 0px;
+}
+.portfolio h2{
+    font-size: 40px;
+    font-weight: bold;
+    padding: 20px 0px;
+}
+.portfolio p{
+    font-size: 18px;
+    color: gray;
+    padding: 0px 0px 40px 0px;
+}
+.grid-inside h4{
+    color: white;
+    padding: 0px 15px;
+}
+.grid-inside{
+    padding-top: 30px;
+}
+.grid-inside p{
+    padding: 0px 20px;
+    color: white;
+}
+.grid-inside hr{
+    filter: brightness(10);   
+}
+.grid:hover{
+   filter:opacity(.8);
+   cursor: pointer;
+   transform: translateY(-2%);
+   transition: .5s;
+}
+
+
 
 
