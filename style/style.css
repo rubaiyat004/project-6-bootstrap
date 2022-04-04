@@ -124,6 +124,8 @@
 }
 .portfolio{
     padding: 100px 0px;
+    background-color: #EEEEEE;
+    overflow-x: hidden;
 }
 .portfolio h2{
     font-size: 40px;
@@ -180,8 +182,15 @@
 }
 .port-grid{
     row-gap: 30px;
+    padding: 30px 70px 50px 70px;
+    
 }
-
+.lang{
+    padding: 120px 0px;
+}
+.language{
+    background-color: #EEEEEE;
+}
 
 
 
