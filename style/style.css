@@ -68,17 +68,17 @@
     height: 22.5em;
     padding: 30px 30px;
 }
-.col-12 {
+.card-1 {
     text-align: center;
 }
-.col-12 p{
+.card-1 p{
     font-size: 18px;
     padding: 20px 0;
 }
 .star{
     padding: 0 10px;
 }
-.col-12:hover{
+.card-1:hover{
    color: aliceblue;
     background: linear-gradient(208.18deg, #3280d4 9.05%, #166ef1 76.74%);
     
@@ -191,7 +191,26 @@
 .language{
     background-color: #EEEEEE;
 }
-
+.talk{
+    padding: 120px 0px;
+}
+.talk h2{
+    font-size: 40px;
+    font-weight: bold;
+}
+.talk p{
+    color: gray;
+    font-size: 18px;
+}
+.send{
+    margin: 20px 0px;
+}
+.send:hover{
+    background-color: linear-gradient(208.18deg, #3280d4 9.05%, #166ef1 76.74%);
+}
+.message{
+    height: 120px;
+}
 
 
 
