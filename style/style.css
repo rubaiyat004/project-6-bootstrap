@@ -1,34 +1,26 @@
 .navbar a i{
     font-size: 10px;font-weight:bold; color: black; font-family: var(--h1-font);font-style: normal;
 }
-.main{
-    background-image: url(images/bg-7.jpg);
-    background-size: cover;
-    width: 100%;
-    height: 35em;
-     
-}
+
 .main h1{
-    font-size: 6em;
-    color: white;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: 1000;
-    padding-top: 1.5em;
-    
+   font-size: 80px;
+   font-weight: 1000; 
+   color: white;
 }
 .main p{
-    font-size: 1.8em;
+    font-size: 22px;
+    
     color: grey;
-    padding: 0em 6em;
+ }
+
+.hero{
+    
+    
 }
-.navbar-brand{
+.brand{
     font-size: 1.5rem;
     font-weight: 600;
 }
-
-
-
-
 
 
 
@@ -244,6 +236,6 @@ footer{
 
 }
 .nav-area{
-    background: #285fd4;
+    background: linear-gradient(208.18deg, #3280d4 9.05%, #166ef1 76.74%);
     
 }
