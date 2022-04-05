@@ -25,26 +25,12 @@
     font-size: 1.5rem;
     font-weight: 600;
 }
-.col-lg-8 h2{
-    font-size: 40px;font-weight: bold;padding: 20px 0px;
-}
-.col-lg-8 p{
-    font-size: 18px;color: gray;
-}
-.col-lg-8{
-    padding-right: 30px;
-}
-.col-lg-8 h5{
-    padding: 15px 0;
-}
 
-.col-lg-4{
-    padding-left: 30px;
-    
-}
-.col-lg-4 .list-group{
-    padding-bottom: 50px;
-}
+
+
+
+
+
 
 .content{
     padding: 100px 0px;   }
@@ -209,8 +195,51 @@
     background-color: linear-gradient(208.18deg, #3280d4 9.05%, #166ef1 76.74%);
 }
 .message{
-    height: 120px;
+    height: 150px;
 }
+.git{
+    background-color: #111117;
+    padding: 120px 60px;
+}
+.git h3{
+    font-size: 35px;
+    font-weight: bold;
+}
+.logo a{
+    text-decoration: none;
+    color: linear-gradient(208.18deg, #3280d4 9.05%, #166ef1 76.74%);;
+}
+.logo p{
+    color: gray;
+    padding: 20px 27px 20px 0px;
+    font-size: 18px;
+}
+.git h4{
+    font-size: 22px;
+    color: white;
+    padding-bottom: 20px;
+    padding-top: 15px;
+}
+.git-img{
+    margin-right: 12px;
+}
+.git-desc a{
+    text-decoration: none;
+    color: gray;
+}
+.git-desc-btn{
+    margin: 25px 0px;
+}
+.row-items{
+    row-gap: 30px;
+}
+.git-btn{
+    margin-right: 10px;
+    margin-top: 10px;
+}
+footer{
+    background-color: black;
+    color: gray;
+    padding: 20px 30px;
 
-
-
+}
