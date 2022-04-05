@@ -228,7 +228,7 @@
     color: gray;
 }
 .git-desc-btn{
-    margin: 25px 0px;
+    margin: 15px 0px;
 }
 .row-items{
     row-gap: 30px;
@@ -242,4 +242,8 @@ footer{
     color: gray;
     padding: 20px 30px;
 
+}
+.nav-area{
+    background: #285fd4;
+    
 }
