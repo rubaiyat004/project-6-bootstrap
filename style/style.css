@@ -97,6 +97,11 @@
     filter: opacity(.7);
     transition: .25ms;
 }
+
+.video:hover .play-btn img{
+transform: scale(1.5);
+transition: all ease .5s;
+}
 .portfolio{
     padding: 100px 0px;
     background-color: #EEEEEE;
