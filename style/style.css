@@ -3,7 +3,7 @@
 }
 
 .main-txt h1{
-   font-size: 14vh;
+   font-size: 80px;
    font-weight: 1000; 
    color: white;
 }
@@ -61,7 +61,7 @@
 .card-bg-1{
     background-color: rgb(35, 33, 33);
     border: none;
-    height: 22.5em;
+    height: 400px;
     padding: 30px 30px;
     
 }
@@ -237,9 +237,18 @@ footer{
     
 }
 @media (min-width: 360px) {
-.main-txt h1{
-    font-size: 13vh;
-}
+
+    .main-txt h1{
+        font-size: 40px;
+        
+        
+    }
+   
+
+    .main-txt{
+        width: 360px;
+        padding: 0px 20px;
+    }
 
 .star{
     padding: 0 5px;
@@ -255,5 +264,70 @@ footer{
 }
 }
 @media (min-width: 576px){
+    .main-txt h1{
+        font-size:45px;
     
+    }
+    .main-txt p{
+        font-size:20px;
+        padding: 0px 20px;
+    
+    }
+
+    .main-txt{
+        width: 576px;
+        padding: 0px 30px;
+    }
+
+}
+@media (min-width: 768px){
+    .main-txt h1{
+        font-size:50px;
+    
+    }
+    .main-txt p{
+        font-size:22px;
+        padding: 0px 30px;
+    
+    }
+
+    .main-txt{
+        width: 768px;
+        padding: 0px 40px;
+    }
+
+}
+@media (min-width: 992px){
+    .main-txt h1{
+        font-size:60px;
+    
+    }
+    .main-txt p{
+        font-size:23px;
+        padding: 0px 35px;
+    
+    }
+
+    .main-txt{
+        width: 992px;
+        padding: 0px 50px;
+    }
+
+}
+@media (min-width: 1200px){
+    .main-txt h1{
+        font-size:80px;
+    
+    }
+    .main-txt p{
+        font-size:24px;
+        padding: 0px 50px;
+    
+    }
+
+    .main-txt{
+        width: 1200px;
+        padding: 0px 80px;
+    }
+
 }
