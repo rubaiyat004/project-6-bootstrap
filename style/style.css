@@ -28,11 +28,14 @@
 }
 .ddpa-1{
     position: absolute;
-    display: block;
+    display: none;
     min-width: 100px;
     z-index: 1;
     
     
+}
+.ddpr-1:hover + .ddpa-1{
+    display: block;
 }
 .ddpr-2{
     position: relative;
