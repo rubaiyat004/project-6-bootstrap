@@ -14,10 +14,67 @@
  }
 
 
+
 .brand{
     font-size: 1.5rem;
     font-weight: 600;
 }
+
+/*......copied*/
+.ddpr-1{
+    position: relative;
+    display: inline-block;
+   
+}
+.ddpa-1{
+    position: absolute;
+    display: block;
+    min-width: 100px;
+    z-index: 1;
+    
+    
+}
+.ddpr-2{
+    position: relative;
+    display: inline-block;
+   
+}
+.ddpa-2{
+    position: absolute;
+    display: block;
+    min-width: 100px;
+    z-index: 1;
+    
+    
+}
+.ddpr-3{
+    position: relative;
+    display: inline-block;
+   
+}
+.ddpa-3{
+    position: absolute;
+    display: block;
+    min-width: 100px;
+    z-index: 1;
+}
+.ddpr-4{
+    position: relative;
+    display: inline-block;
+   
+}
+.ddpa-4{
+    position: absolute;
+    display: block;
+    min-width: 100px;
+    z-index: 1;
+}
+
+
+
+
+/*......end*/
+
 
 
 
