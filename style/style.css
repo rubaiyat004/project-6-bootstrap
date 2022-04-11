@@ -39,17 +39,17 @@
     display: block;
 }
 
-.navbar-light .navbar-nav .nav-link{
-    color: white;
-}
-.navbar-light .navbar-nav .nav-link{
-    color: #111117;
-}
 
 /*......end*/
 
-
-
+.icon{
+    transform: scale(1.6);
+    margin-right: 25px;
+    color: #166ef1;
+}
+.card:hover .icon{
+    color: #EEEEEE;
+}
 
 .content{
     padding: 100px 0px;   }
