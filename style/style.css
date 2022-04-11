@@ -38,7 +38,27 @@
 .ddpr-1:hover .ddpa-1{
     display: block;
 }
+.ddpr-2{
+    position: relative;
+    display: block;
+    
+   
+}
+.ddpa-2{
+    position: absolute;
+    display: none;
+    top: 0;
+    left: 100%;
+    
+    height:100px;
+    
+    
 
+    
+}
+.ddpr-2:hover + .ddpa-2{
+    display: block;
+}
 
 /*......end*/
 
