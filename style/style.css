@@ -47,10 +47,11 @@
 .ddpa-2{
     position: absolute;
     display: none;
-    top: 0;
+    top: -10px;
     left: 100%;
+    min-width: 100px;
     
-    height:100px;
+    
     
     
 
@@ -58,6 +59,7 @@
 }
 .ddpr-2:hover + .ddpa-2{
     display: block;
+    
 }
 
 /*......end*/
