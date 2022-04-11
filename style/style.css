@@ -35,14 +35,16 @@
     
     
 }
-.ddpr-1:hover .ddpa-1{
+.ddpr-1:hover .ddpa-1,
+.ddpa-1:hover,
+.ddpa-2:hover,
+.ddpa-3:hover {
     display: block;
 }
+
 .ddpr-2{
     position: relative;
     display: block;
-    
-   
 }
 .ddpa-2{
     position: absolute;
@@ -50,16 +52,26 @@
     top: -10px;
     left: 100%;
     min-width: 100px;
-    
-    
-    
-    
-
-    
+    z-index: 1;
 }
-.ddpr-2:hover + .ddpa-2{
+.ddpr-2:hover + .ddpa-2 {
+    display: block; 
+}
+.ddpr-3{
+    position: relative;
     display: block;
     
+}
+.ddpa-3{
+    position: absolute;
+    display: none;
+    top: -10px;
+    left: 100%;
+    min-width: 100px;
+    z-index: 1;
+}
+.ddpr-3:hover + .ddpa-3{
+    display: block; 
 }
 
 /*......end*/
