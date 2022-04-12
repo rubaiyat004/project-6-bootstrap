@@ -346,8 +346,7 @@ footer{
        top: 0;
        left: 5%;
        width: 95%;
-       
-       
+         
    }
    
    
@@ -420,7 +419,13 @@ footer{
 .ddpa-3:hover {
     display: block;
 }
-
+.nav-small{
+    display: list-item;
+    top: 0;
+    
+    
+      
+}
     .main-txt{
         width: 992px;
         padding: 0px 50px;
