@@ -3,6 +3,7 @@
 }
 .navbar-light .navbar-brand{
     color: #EEEEEE;
+    font-size: 30px;
 }
 .navbar-light .navbar-brand:hover{
     color: #EEEEEE;
@@ -11,7 +12,9 @@
     color: #EEEEEE;
     font-size: 18px;
 }
-
+.hero-img{
+    padding-bottom: 20px;
+}
 .n-link{
     text-decoration: none;
     color: #111117;
@@ -27,7 +30,7 @@
    color: white;
 }
 .main-txt p{
-    font-size: 3.5vh;
+    font-size: 3.9vh;
     
     color: grey;
  }
@@ -54,12 +57,7 @@
     
     
 }
-.ddpr-1:hover .ddpa-1,
-.ddpa-1:hover,
-.ddpa-2:hover,
-.ddpa-3:hover {
-    display: block;
-}
+
 
 .ddpr-2{
     position: relative;
@@ -341,12 +339,18 @@ footer{
 @media (min-width: 360px) {
 
     .main-txt h1{
-        font-size: 40px;
-        
-        
+        font-size: 38px;  
     }
+   .nav-small{
+       display: list-item;
+       top: 0;
+       left: 5%;
+       width: 95%;
+       
+       
+   }
    
-
+   
     .main-txt{
         width: 360px;
         padding: 0px 20px;
@@ -409,6 +413,13 @@ footer{
         padding: 0px 35px;
     
     }
+
+    .ddpr-1:hover .ddpa-1,
+.ddpa-1:hover,
+.ddpa-2:hover,
+.ddpa-3:hover {
+    display: block;
+}
 
     .main-txt{
         width: 992px;
