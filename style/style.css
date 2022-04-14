@@ -106,6 +106,15 @@
 
 .content{
     padding: 100px 0px;   }
+.content p{
+    font-size: 18px;
+}
+.content h2{
+    font-size: 50px;
+    font-weight: 700;
+    padding-bottom: 25px;
+}
+
 .italic{
     padding: 30px 30px;}
 .list-group li{
@@ -128,6 +137,8 @@
 }
 .card-1 {
     text-align: center;
+    
+    
 }
 .card-1 p{
     font-size: 18px;
@@ -153,6 +164,13 @@
 .card-bg-1 p{
     color: aliceblue;
     padding: 12px 0;
+}
+.carousel-indicators [data-bs-target]{
+    background-color: #216cdc;
+    padding: 1.3px;
+    margin:5px;
+    position: relative;
+    top: 70px;
 }
 .star-card i{
     min-width: 40px;
@@ -346,10 +364,17 @@ footer{
        display: list-item;
        top: 0;
        left: 5%;
-       width: 95%;
-         
+       width: 95%;    
    }
-   
+   .hero-content{
+    padding: 15px;
+}
+.hero-content-2{
+    padding: 15px;
+}
+.slider{
+    padding: 15px;
+}
    
     .main-txt{
         width: 360px;
@@ -413,7 +438,15 @@ footer{
         padding: 0px 35px;
     
     }
-
+    .hero-content{
+        padding-right: 25px;
+    }
+    .hero-content-2{
+        padding-left: 25px;
+    }
+    .slider{
+        padding-left: 25px;
+    }
     .ddpr-1:hover .ddpa-1,
 .ddpa-1:hover,
 .ddpa-2:hover,
