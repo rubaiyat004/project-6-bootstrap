@@ -391,6 +391,9 @@ footer{
     padding: 20px 20px;
     
 }
+.port-grid p{
+    font-size: 17px;
+}
 }
 @media (min-width: 576px){
     .main-txt h1{
@@ -402,7 +405,9 @@ footer{
         padding: 0px 20px;
     
     }
-
+    .port-grid p{
+        font-size: 18px;
+    }
     .main-txt{
         width: 576px;
         padding: 0px 30px;
