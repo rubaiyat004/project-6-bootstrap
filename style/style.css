@@ -394,6 +394,14 @@ footer{
 .port-grid p{
     font-size: 17px;
 }
+.media-s{
+    display: none;
+
+}
+.media-l{
+    display: none;
+    
+}
 }
 @media (min-width: 576px){
     .main-txt h1{
@@ -424,7 +432,9 @@ footer{
         padding: 0px 30px;
     
     }
-
+.media-s{
+    display: block;
+}
     .main-txt{
         width: 768px;
         padding: 0px 40px;
@@ -435,6 +445,9 @@ footer{
     .main-txt h1{
         font-size:60px;
     
+    }
+    .media-l{
+        display: block;
     }
     .main-txt p{
         font-size:23px;
