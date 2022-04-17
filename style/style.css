@@ -247,6 +247,7 @@ transition: all ease .5s;
 }
 .team{
     background-color: #111117;
+    padding-bottom: 100px;
 
 }
 .team h2{
@@ -402,6 +403,10 @@ footer{
     display: none;
     
 }
+
+.team-360{
+    display: none;
+}
 }
 @media (min-width: 576px){
     .main-txt h1{
@@ -420,13 +425,22 @@ footer{
         width: 576px;
         padding: 0px 30px;
     }
-
+    .team-360{display: block;}
 }
 @media (min-width: 768px){
     .main-txt h1{
         font-size:50px;
     
     }
+    .t-360{
+        display: none;
+    }
+    .team-768{
+        display: none;
+    }
+
+    
+    
     .main-txt p{
         font-size:22px;
         padding: 0px 30px;
@@ -479,6 +493,12 @@ footer{
     .main-txt{
         width: 992px;
         padding: 0px 50px;
+    }
+    .t-md{
+        display: none;
+    }
+    .team-768{
+        display: block;
     }
 
 }
