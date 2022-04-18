@@ -1,8 +1,8 @@
 .navbar a i{
-    font-size: 1rem;font-weight:600; 
+    font-size: 1.2rem;
     
     
-    color: white; font-family: var(--h1-font);font-style: normal;
+    color: white; font-family: var(--h1-font);
 }
 .container .brand i{
     font-size: 12px;
@@ -11,7 +11,7 @@
 .navbar-light .navbar-brand{
     color: #EEEEEE;
     font-size: 1.5rem;
-    font-weight: 600;
+    font-weight: 700;
 }
 
 .navbar-light .navbar-brand:hover{
@@ -49,9 +49,46 @@
     
     color: grey;
  }
+ .btn-group-lg > .btn, .btn-lg{
+     background: transparent;
+     border: 1px solid #f5f5f5;
+     padding: .55rem 1.5rem;
+     border-radius: 0%;
+     font-size: 1rem;
+     
 
+ }
+ .btn-group-lg > .btn, .btn-lg:hover{
+    background: linear-gradient(208.18deg, #1E50BC 9.05%, #1a8fe3 76.74%);
+ }
 
+ .btn-group-lg > .btn, .btn-lg-f{
+    background: #1E50BC;
+    border: none;
+    padding: .55rem 1.5rem;
+    border-radius: 0%;
+    font-size: 1rem;
+    position: relative;
+    right: 10px;
+    
 
+}
+.btn-group-lg > .btn, .btn-lg-f-s{
+    background: #1E50BC;
+    border: none;
+    padding: .55rem 1.5rem;
+    border-radius: 0%;
+    font-size: 1rem;
+    margin-top: 20px;
+    
+
+}
+.btn-group-lg > .btn, .btn-lg-f-s:hover{
+    background: linear-gradient(208.18deg, #1E50BC 9.05%, #1a8fe3 76.74%);
+}
+.btn-group-lg > .btn, .btn-lg-f:hover{
+    background: linear-gradient(208.18deg, #1E50BC 9.05%, #1a8fe3 76.74%);
+}
 .brand{
     font-size: 1.5rem;
     font-weight: 600;
@@ -317,17 +354,19 @@ transition: all ease .5s;
 .send:hover{
     background-color: linear-gradient(208.18deg, #3280d4 9.05%, #166ef1 76.74%);
 }
-.message{
-    height: 150px;
-}
+
 .git{
     background-color: #111117;
     padding: 120px 60px;
 }
-.git h3{
+.logo h3{
     font-size: 35px;
-    font-weight: bold;
+    background: -webkit-linear-gradient(208.18deg, #3280d4 9.05%, #166ef1 76.74%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 750;
 }
+
 .logo a{
     text-decoration: none;
     color: linear-gradient(208.18deg, #3280d4 9.05%, #166ef1 76.74%);;
@@ -355,7 +394,7 @@ transition: all ease .5s;
     font-size: 18px;
 }
 .git-desc-btn{
-    margin: 15px 0px;
+    margin: 15px 10px;
 }
 .row-items{
     row-gap: 30px;
@@ -373,6 +412,15 @@ footer{
 .nav-area{
     background: #1E50BC;
     
+}
+.btn-outline-primary{
+color: grey;
+border-color: grey;
+}
+.btn-outline-primary:hover{
+    color: #1E50BC;
+    border-color: #1E50BC;
+    background: transparent;
 }
 @media (min-width: 360px) {
 
