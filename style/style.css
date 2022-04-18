@@ -105,7 +105,12 @@
 }
 
 .content{
-    padding: 100px 0px;   }
+    padding: 100px 60px;  
+background: #F5F5F5;
+}
+.hero-content-2 li{
+    background-color: #F5F5F5;
+}
 .content p{
     font-size: 18px;
 }
