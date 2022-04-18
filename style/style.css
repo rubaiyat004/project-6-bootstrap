@@ -203,7 +203,8 @@ background: #F5F5F5;
 }
 
 .card-bg-1:hover{
-    background: linear-gradient(208.18deg, #3280d4 9.05%, #166ef1 76.74%);
+    background: linear-gradient(208.18deg, #1E50BC 9.05%, #1a8fe3 76.74%);
+    
 }
 .institutional{
     background-color: #0F2960;
