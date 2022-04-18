@@ -403,10 +403,12 @@ footer{
     display: none;
     
 }
-
-.team-360{
+.t-768{
     display: none;
 }
+.t-992{display: none;}
+
+
 }
 @media (min-width: 576px){
     .main-txt h1{
@@ -425,7 +427,11 @@ footer{
         width: 576px;
         padding: 0px 30px;
     }
-    .team-360{display: block;}
+    .t-360{
+        display: block;
+    }
+    
+    
 }
 @media (min-width: 768px){
     .main-txt h1{
@@ -435,8 +441,8 @@ footer{
     .t-360{
         display: none;
     }
-    .team-768{
-        display: none;
+    .t-768{
+        display: block;
     }
 
     
@@ -453,7 +459,9 @@ footer{
         width: 768px;
         padding: 0px 40px;
     }
-
+.tc-360{
+    display: none;
+}
 }
 @media (min-width: 992px){
     .main-txt h1{
@@ -494,13 +502,15 @@ footer{
         width: 992px;
         padding: 0px 50px;
     }
-    .t-md{
+    .t-768{
         display: none;
     }
-    .team-768{
+    .t-992{
         display: block;
     }
-
+.tc-768{
+    display: none;
+}
 }
 @media (min-width: 1200px){
     .main-txt h1{
