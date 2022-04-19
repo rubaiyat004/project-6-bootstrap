@@ -7,6 +7,7 @@
 .container .brand i{
     font-size: 12px;
     font-weight: 800;
+    font-style: normal;
 }
 .navbar-light .navbar-brand{
     color: #EEEEEE;
@@ -264,10 +265,17 @@ background: #F5F5F5;
     filter: opacity(.7);
     transition: .25ms;
 }
-
-.video:hover .play-btn img{
-transform: scale(1.5);
+.play-btn i{
+    background: -webkit-linear-gradient(208.18deg, #3280d4 9.05%, #166ef1 76.74%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    
+    font-size: 180px;
+}
+.video:hover .play-btn i{
+font-size: 230px;
 transition: all ease .5s;
+
 }
 .portfolio{
     padding: 100px 0px;
